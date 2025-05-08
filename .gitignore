@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build directories
+/dist/
+/build/
+
+# Dependency directories (for Yarn users)
+.yarn/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.* # If you have multiple env files like .env.development, .env.production, etc.
+
+# Webpack output
+*.bak
+
+# Operating system files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# npm-debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jest test results
+coverage/
+
+# TypeScript (if using TypeScript)
+*.tsbuildinfo
+
+# React Native (if using React Native)
+.expo/
